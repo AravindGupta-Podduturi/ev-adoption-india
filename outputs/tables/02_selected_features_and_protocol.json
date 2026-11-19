@@ -1,0 +1,43 @@
+{
+  "target": "ev_adoption_rate",
+  "selected_drivers": [
+    "aqi_mean",
+    "no2_mean",
+    "so2_mean",
+    "petrol_price",
+    "charging_stations",
+    "nsdp_per_capita",
+    "mean_temp_c",
+    "precipitation_mm"
+  ],
+  "calendar_features": [
+    "month_sin",
+    "month_cos",
+    "fy_end"
+  ],
+  "excluded_for_leakage": [
+    "alternative",
+    "diesel",
+    "electric",
+    "ev_count",
+    "four_wheeler",
+    "gas",
+    "heavy_vehicle",
+    "hybrid",
+    "light_vehicle",
+    "lpg",
+    "medium_vehicle",
+    "not_applicable",
+    "other",
+    "petrol",
+    "three_wheeler",
+    "two_wheeler",
+    "vehicle_total"
+  ],
+  "data_cutoff": "2026-08",
+  "tuning_period": "2022-01 .. 2024-12 (hyper-parameters are tuned here and then frozen)",
+  "out_of_sample_period": "2025-01 .. 2026-08 (20 months x 4 states)",
+  "flagged_observations": "West Bengal 2025-11 .. 2026-02 surge episode (metrics reported with and without)",
+  "cv_scheme": "expanding-window time-series CV inside the training period only (no shuffling)",
+  "random_seed": 42
+}

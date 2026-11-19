@@ -1,0 +1,5 @@
+state,Ensemble-F0 top-3 (validation-selected),Ensemble-F0 pool (equal weights),SARIMA,Naive (last value)
+Delhi,-3.094,-3.829,1.369,-3.255
+Maharashtra,-3.545,-3.531,-3.685,-0.611
+Tamil Nadu,-2.17,-2.075,-2.245,0.671
+West Bengal,0.721,0.848,-0.042,-0.43

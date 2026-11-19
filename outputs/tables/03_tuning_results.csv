@@ -1,0 +1,5 @@
+model,cv_MAE_pp,best_params
+Ridge,1.5017510414040314,{'alpha': 29.1544}
+RandomForest,1.4647376899203466,"{'max_depth': 5, 'max_features': 0.4732, 'min_samples_leaf': 9, 'n_estimators': 234}"
+XGBoost,1.5057773563288344,"{'colsample_bytree': 0.6101, 'learning_rate': 0.1028, 'max_depth': 4, 'min_child_weight': 3, 'n_estimators': 247, 'reg_lambda': 3.0518, 'subsample': 0.6697}"
+LightGBM,1.5578813775002276,"{'colsample_bytree': 0.9011, 'learning_rate': 0.0237, 'min_child_samples': 10, 'n_estimators': 108, 'num_leaves': 11, 'reg_lambda': 0.8103, 'subsample': 0.7174, 'subsample_freq': 1}"

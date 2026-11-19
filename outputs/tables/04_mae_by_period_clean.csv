@@ -1,0 +1,22 @@
+model,2025,2026 YTD
+SARIMA-avg4 (all specs averaged),1.3993,2.443
+Ensemble-F0 pool (equal weights),1.4158,2.565
+SARIMA,1.6016,2.3824
+Ensemble-F0 top-3 (validation-selected),1.5254,2.5122
+Ensemble-All top-3 (validation-selected),1.5544,2.4844
+Ensemble-Classical (SARIMA+ETS+PSD),1.5689,2.5546
+Ridge-F0,1.5899,2.6542
+Ridge-F1,1.718,2.6799
+XGBoost-F0,1.6039,2.8508
+PSD (pooled seasonal + damped trend),1.5793,2.9071
+LightGBM-F0,1.6085,2.8686
+LightGBM-F1,1.6875,2.8554
+ETS,1.8301,2.6713
+Ridge-F2,1.7325,2.8057
+XGBoost-F1,1.7128,2.8563
+XGBoost-F2,1.6986,2.9033
+LightGBM-F2,1.7023,2.8985
+Moving average (3m),1.7121,2.9513
+Naive (last value),1.9393,2.893
+Seasonal naive,2.048,2.9894
+Seasonal naive + YoY growth,2.0722,3.1873

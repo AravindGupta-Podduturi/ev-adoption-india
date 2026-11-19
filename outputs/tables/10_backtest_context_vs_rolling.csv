@@ -1,0 +1,6 @@
+model,rolling_MAE_same_target_months_pp,rolling_all_test_MAE_pp
+Ensemble-F0 top-3 (validation-selected),2.424,1.945
+Ensemble-F0 pool (equal weights),2.481,1.904
+SARIMA,2.153,1.933
+SARIMA-avg4 (all specs averaged),2.187,1.843
+Naive (last value),2.848,2.345

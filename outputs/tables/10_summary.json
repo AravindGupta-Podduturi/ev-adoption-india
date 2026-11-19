@@ -1,0 +1,21 @@
+{
+  "origin": "2026-03",
+  "targets": "2026-04..2026-09",
+  "n_forecasts_per_model": 24,
+  "headline": "Ensemble-F0 top-3 (validation-selected)",
+  "headline_MAE_pp": 2.4052240052715583,
+  "headline_R2_pooled": -0.34034417347967105,
+  "headline_R2_within_state": -2.9431773625829742,
+  "headline_skill_vs_naive_pct": -41.54248044668418,
+  "naive_MAE_pp": 1.6992947966441436,
+  "best_model_in_backtest": "Naive (last value)",
+  "best_MAE_pp": 1.6992947966441436,
+  "headline_rank": 4,
+  "interval_coverage_80": 0.9166666666666666,
+  "sarima_choice": {
+    "Delhi": "(1,1,1)(0,1,0,12)",
+    "Maharashtra": "(0,1,1)(1,0,0,12)",
+    "Tamil Nadu": "(0,1,1)(1,0,0,12)",
+    "West Bengal": "(1,1,1)(0,1,0,12)"
+  }
+}

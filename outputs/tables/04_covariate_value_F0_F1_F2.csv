@@ -1,0 +1,7 @@
+model,comparison,MAE diff (pp),90% CI low,90% CI high,covariates_help,covariates_hurt
+Ridge,F1 minus F0,0.085,0.05,0.121,False,True
+Ridge,F2 minus F0,0.146,0.097,0.196,False,True
+LightGBM,F1 minus F0,0.04,-0.013,0.1,False,False
+LightGBM,F2 minus F0,0.067,0.016,0.121,False,True
+XGBoost,F1 minus F0,0.065,-0.001,0.136,False,False
+XGBoost,F2 minus F0,0.077,0.019,0.139,False,True

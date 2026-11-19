@@ -1,0 +1,13 @@
+,MAE_pp_all_states,MAE_pp_all_states,MAE_pp_West_Bengal,MAE_pp_West_Bengal,MAE_pp_other_3_states,MAE_pp_other_3_states
+policy,as_reported,backlog_removed,as_reported,backlog_removed,as_reported,backlog_removed
+model,,,,,,
+ETS,3.3042,3.8919,1.2875,3.6384,3.9765,3.9765
+Ensemble-Classical (SARIMA+ETS+PSD),2.5648,3.2576,0.9661,3.7473,3.0978,3.0943
+Ensemble-F0 pool (equal weights),2.583,3.2021,0.8969,3.6653,3.145,3.0477
+Ensemble-F0 top-3 (validation-selected),2.4052,3.0704,0.8116,3.8376,2.9364,2.8146
+LightGBM-F0,3.1228,3.5622,1.6532,3.9405,3.6127,3.4361
+PSD (pooled seasonal + damped trend),3.1657,3.7357,1.2735,3.5844,3.7964,3.7861
+Ridge-F0,2.6482,3.077,1.3781,3.4798,3.0716,2.9427
+SARIMA,1.9637,2.8295,0.5559,4.019,2.433,2.433
+SARIMA-avg4 (all specs averaged),2.1798,2.8285,0.5446,3.1394,2.7249,2.7249
+XGBoost-F0,2.9028,3.1741,1.6738,3.8554,3.3124,2.947

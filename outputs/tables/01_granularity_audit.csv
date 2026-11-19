@@ -1,0 +1,25 @@
+variable,state,distinct_values,n_changes,change_dates
+petrol_price,Delhi,12,11,
+petrol_price,Maharashtra,17,17,
+petrol_price,Tamil Nadu,13,24,
+petrol_price,West Bengal,14,13,
+diesel_price,Delhi,13,27,
+diesel_price,Maharashtra,14,13,
+diesel_price,Tamil Nadu,11,10,
+diesel_price,West Bengal,13,12,
+charging_stations,Delhi,4,3,"Feb-24, Dec-25, Aug-26"
+charging_stations,Maharashtra,4,3,"Feb-24, Dec-25, Aug-26"
+charging_stations,Tamil Nadu,4,3,"Feb-24, Dec-25, Aug-26"
+charging_stations,West Bengal,4,3,"Feb-24, Dec-25, Aug-26"
+nsdp_per_capita,Delhi,5,4,"Apr-23, Apr-24, Apr-25, Apr-26"
+nsdp_per_capita,Maharashtra,5,4,"Apr-23, Apr-24, Apr-25, Apr-26"
+nsdp_per_capita,Tamil Nadu,5,4,"Apr-23, Apr-24, Apr-25, Apr-26"
+nsdp_per_capita,West Bengal,5,4,"Apr-23, Apr-24, Apr-25, Apr-26"
+aqi_mean,Delhi,56,55,
+aqi_mean,Maharashtra,56,55,
+aqi_mean,Tamil Nadu,56,55,
+aqi_mean,West Bengal,56,55,
+mean_temp_c,Delhi,56,55,
+mean_temp_c,Maharashtra,56,55,
+mean_temp_c,Tamil Nadu,56,55,
+mean_temp_c,West Bengal,56,55,

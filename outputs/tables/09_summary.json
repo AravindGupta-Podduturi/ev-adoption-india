@@ -1,0 +1,14 @@
+{
+  "robust_drivers": [],
+  "n_months": 56,
+  "spec_A_R2": 0.7974184380190246,
+  "spec_B_R2": 0.843899203293324,
+  "diff_R2": 0.30427895491011836,
+  "best_forecast_model_principal_series": "SARIMA-avg4 (all specs averaged)",
+  "best_forecast_MAE_pp": 0.996,
+  "best_forecast_R2": 0.573,
+  "sarima_spec_chosen": {
+    "as_reported": "(0,1,1)(1,0,0,12)",
+    "backlog_removed": "(0,1,1)(1,0,0,12)"
+  }
+}

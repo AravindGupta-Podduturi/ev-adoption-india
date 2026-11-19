@@ -1,0 +1,17 @@
+{
+  "data_cutoff": "2026-09",
+  "covariate_cutoff": "2026-08",
+  "backtest_origin": "2026-03",
+  "final_origin": "2026-09",
+  "train_end": "2024-12",
+  "seed": 42,
+  "vintage_rules": {
+    "monthly_covariates": {"columns": ["aqi_mean","pm25_mean","pm10_mean","no2_mean","so2_mean","mean_temp_c","precipitation_mm","petrol_price","diesel_price"], "lag_months": 1,
+      "rule": "value for month m is usable from origin m+1 (a forecast made at the end of month m cannot see month m's monthly aggregate)"},
+    "charging_stations": {"release_lag_months": "explicit per snapshot", "rule": "release month stored per snapshot in data/external/charging_snapshots.csv (ministry/parliament replies: label+1); never back-filled; earlier origins see NaN"},
+    "nsdp_per_capita": {"release_lag_months": 24, "rule": "financial-year value is usable 24 months after the FY starts (FY2022-23 from Apr-2024); the Projected FY2026-27 figure is therefore never visible inside the data window; origins earlier see NaN"}
+  },
+  "forecast_horizons": [1,2,3,4,5,6],
+  "feature_sets": {"F0": "no exogenous drivers", "F1": "F0 + lagged AQI/NO2/SO2/petrol/weather", "F2": "F1 + release-aligned charging stations and NSDP"},
+  "wb_policies": ["as_reported", "capped", "backlog_removed"]
+}

@@ -1,0 +1,10 @@
+A,B,MAE(A)-MAE(B) pp,90% CI low,90% CI high
+SARIMA-avg4 (all specs averaged),SARIMA,-0.091,-0.26,0.078
+Ensemble-F0 top-3 (validation-selected),SARIMA,0.011,-0.105,0.121
+Ensemble-F0 pool (equal weights),SARIMA,-0.029,-0.18,0.114
+SARIMA-avg4 (all specs averaged),SARIMA,-0.091,-0.26,0.078
+PSD (pooled seasonal + damped trend),SARIMA,0.21,0.024,0.39
+LightGBM-F0,SARIMA,0.211,0.007,0.415
+XGBoost-F0,SARIMA,0.2,-0.003,0.406
+Ridge-F0,SARIMA,0.109,-0.087,0.305
+Ensemble-All top-3 (validation-selected),Ensemble-F0 top-3 (validation-selected),0.005,-0.02,0.031

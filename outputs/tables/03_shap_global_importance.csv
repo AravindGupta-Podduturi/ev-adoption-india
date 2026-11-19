@@ -1,0 +1,12 @@
+,mean_|SHAP|_pp
+charging_stations,2.1659
+nsdp_per_capita,0.6577
+petrol_price,0.3559
+so2_mean,0.2061
+no2_mean,0.1889
+aqi_mean,0.1005
+mean_temp_c,0.0436
+precipitation_mm,0.0339
+month_cos,0.0297
+month_sin,0.0273
+fy_end,0.0042

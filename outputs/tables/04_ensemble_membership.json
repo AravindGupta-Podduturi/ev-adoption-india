@@ -1,0 +1,28 @@
+{
+  "ensemble_members": {
+    "Ensemble-Classical (SARIMA+ETS+PSD)": [
+      "SARIMA",
+      "ETS",
+      "PSD (pooled seasonal + damped trend)"
+    ],
+    "Ensemble-F0 top-3 (validation-selected)": [
+      "SARIMA",
+      "ETS",
+      "XGBoost-F0"
+    ],
+    "Ensemble-All top-3 (validation-selected)": [
+      "SARIMA",
+      "ETS",
+      "Ridge-F2"
+    ],
+    "Ensemble-F0 pool (equal weights)": [
+      "SARIMA",
+      "ETS",
+      "PSD (pooled seasonal + damped trend)",
+      "SARIMA-avg4 (all specs averaged)",
+      "Ridge-F0",
+      "LightGBM-F0",
+      "XGBoost-F0"
+    ]
+  }
+}

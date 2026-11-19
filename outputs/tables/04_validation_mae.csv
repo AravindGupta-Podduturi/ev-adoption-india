@@ -1,0 +1,18 @@
+model,validation_MAE_pp
+SARIMA,1.4828
+ETS,1.6068
+Moving average (3m),1.6162
+Ridge-F2,1.6539
+XGBoost-F0,1.6626
+Ridge-F0,1.6698
+Ridge-F1,1.6724
+LightGBM-F2,1.7358
+LightGBM-F1,1.737
+XGBoost-F2,1.7424
+LightGBM-F0,1.7434
+XGBoost-F1,1.7443
+SARIMA-avg4 (all specs averaged),1.7564
+PSD (pooled seasonal + damped trend),1.983
+Naive (last value),2.0797
+Seasonal naive + YoY growth,2.1322
+Seasonal naive,2.3289

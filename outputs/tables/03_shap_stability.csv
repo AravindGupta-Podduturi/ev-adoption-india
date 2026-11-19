@@ -1,0 +1,6 @@
+,spearman_vs_full_fit,top3
+train-period model (2022-24),0.9727272727272729,"charging_stations, nsdp_per_capita, petrol_price"
+without Delhi,0.9636363636363637,"charging_stations, nsdp_per_capita, so2_mean"
+without Maharashtra,0.9727272727272729,"charging_stations, nsdp_per_capita, petrol_price"
+without Tamil Nadu,0.990909090909091,"charging_stations, nsdp_per_capita, petrol_price"
+without West Bengal,0.9727272727272729,"charging_stations, nsdp_per_capita, petrol_price"

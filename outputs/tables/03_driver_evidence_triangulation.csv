@@ -1,0 +1,9 @@
+,SHAP_direction,FE_A_effect_%,FE_B_effect_%,verdict
+aqi_mean,+,-2.103,-2.883,fragile
+charging_stations,+,1.956,-8.08,fragile
+mean_temp_c,-,-1.616,-8.407,fragile
+no2_mean,+,-1.813,-4.459,fragile
+nsdp_per_capita,+,114.401,-67.348,fragile
+petrol_price,-,5.146,9.604,fragile
+precipitation_mm,-,7.555,1.102,fragile
+so2_mean,+,-5.108,-2.064,fragile

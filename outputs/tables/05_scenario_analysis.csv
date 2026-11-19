@@ -1,0 +1,13 @@
+scenario,state,LightGBM,RandomForest,Ridge,XGBoost,min,max,models_agree_on_sign
+Both,Delhi,0.014,-0.781,0.715,-0.473,-0.781,0.715,False
+Both,Maharashtra,0.488,0.108,1.683,0.588,0.108,1.683,True
+Both,Tamil Nadu,1.103,0.923,0.488,1.275,0.488,1.275,True
+Both,West Bengal,-0.014,-0.052,0.038,-0.059,-0.059,0.038,False
+Charging stations +50%,Delhi,-0.003,-0.161,1.024,-0.091,-0.161,1.024,False
+Charging stations +50%,Maharashtra,0.0,0.0,2.02,0.084,0.0,2.02,False
+Charging stations +50%,Tamil Nadu,0.713,0.796,0.815,0.865,0.713,0.865,True
+Charging stations +50%,West Bengal,-0.0,0.003,0.385,-0.049,-0.049,0.385,False
+Petrol price +10%,Delhi,0.017,-0.607,-0.309,-0.446,-0.607,0.017,False
+Petrol price +10%,Maharashtra,0.488,0.108,-0.337,0.486,-0.337,0.488,False
+Petrol price +10%,Tamil Nadu,0.236,-0.017,-0.328,0.112,-0.328,0.236,False
+Petrol price +10%,West Bengal,-0.013,-0.054,-0.347,-0.01,-0.347,-0.01,True

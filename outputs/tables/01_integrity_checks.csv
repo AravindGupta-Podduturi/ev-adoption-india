@@ -1,0 +1,12 @@
+,result
+Missing values (total),0
+Duplicate state-month rows,0
+Panel balanced (56 months x 4 states),True
+No gaps in monthly calendar,True
+ev_count == electric (all rows),True
+ev_adoption_rate == ev_count / vehicle_total (max abs err),9.71445146547012e-17
+Fuel-type columns sum to vehicle_total,True
+Vehicle-category columns sum to vehicle_total,True
+"Target within (0,1)",True
+Rows with dominant_pollutant == 'Insufficient data',1
+'four_wheeler' max monthly count (looks like a mapping artefact),65

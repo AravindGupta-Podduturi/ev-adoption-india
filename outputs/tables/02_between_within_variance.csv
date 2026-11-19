@@ -1,0 +1,14 @@
+,between_state_share_%,within_state_share_%,distinct_values_per_state
+nsdp_per_capita,87.48,12.52,5.0
+petrol_price,70.59,29.41,13.5
+pm10_mean,49.93,50.07,56.0
+charging_stations,45.87,54.13,4.0
+ev_adoption_rate,41.99,58.01,56.0
+aqi_mean,40.91,59.09,56.0
+no2_mean,39.08,60.92,56.0
+pm25_mean,37.5,62.5,56.0
+diesel_price,35.49,64.51,13.0
+aqi_max,33.35,66.65,51.0
+so2_mean,20.94,79.06,56.0
+precipitation_mm,6.53,93.47,55.0
+mean_temp_c,1.85,98.15,56.0

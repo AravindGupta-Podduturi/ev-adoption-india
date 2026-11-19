@@ -1,0 +1,12 @@
+,mean_|SHAP|_pp,between_state_share_of_SHAP_variance_%
+charging_stations,2.166,54.607
+nsdp_per_capita,0.658,70.171
+petrol_price,0.356,75.908
+so2_mean,0.206,24.779
+no2_mean,0.189,48.815
+aqi_mean,0.1,40.349
+mean_temp_c,0.044,5.571
+precipitation_mm,0.034,11.024
+month_cos,0.03,0.092
+month_sin,0.027,0.044
+fy_end,0.004,0.047

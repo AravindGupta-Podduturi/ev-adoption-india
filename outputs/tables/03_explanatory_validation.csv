@@ -1,0 +1,6 @@
+model,holdout_MAE_pp (all),holdout_MAE_pp (excl. flagged),holdout_R2 (excl. flagged),holdout_sMAPE_% (excl. flagged),LOSO_MAE_pp,LOSO_R2
+Ridge,2.952,2.484,0.202,27.585,2.28,0.469
+RandomForest,3.007,2.599,0.126,26.28,3.262,0.009
+XGBoost,2.929,2.539,0.128,26.914,2.956,0.115
+LightGBM,2.905,2.509,0.185,24.981,2.905,0.166
+Reference: state's 2024 mean,,2.762,0.07,,,

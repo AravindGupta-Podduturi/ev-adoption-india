@@ -1,0 +1,3 @@
+,top-down (aggregate SARIMA-avg4),"bottom-up (state SARIMA-avg4, volume-weighted)"
+MAE_pp,0.996,0.997
+R2,0.573,0.562

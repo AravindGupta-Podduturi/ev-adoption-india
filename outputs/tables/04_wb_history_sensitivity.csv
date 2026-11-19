@@ -1,0 +1,4 @@
+model,WB_MAE_as_reported_history_pp,WB_MAE_backlog_adjusted_history_pp
+SARIMA,1.066,1.746
+ETS,1.442,1.865
+PSD (pooled seasonal + damped trend),1.895,1.797

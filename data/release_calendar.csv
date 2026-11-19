@@ -1,0 +1,19 @@
+variable,label,assumed_release,definition,status
+charging_stations,2023-03,2023-04,"PIB, Ministry of Heavy Industries, 24 Mar 2023 (data as of 21 Mar 2023), Annexure A",ASSUMED release month (not the date printed on the source) - confirm; definitions differ across replies (operational vs installed)
+charging_stations,2024-02,2024-03,"PIB, Ministry of Heavy Industries, 6 Feb 2024 (data as of 2 Feb 2024; Ministry of Power inputs), Annexure II",ASSUMED release month (not the date printed on the source) - confirm; definitions differ across replies (operational vs installed)
+charging_stations,2025-12,2026-01,"PIB, Ministry of Heavy Industries, 16 Dec 2025 (Lok Sabha written reply)",ASSUMED release month (not the date printed on the source) - confirm; definitions differ across replies (operational vs installed)
+charging_stations,2026-08,2026-09,"Rajya Sabha Unstarred Q.2333 (Ministry of Heavy Industries), answered 7 Aug 2026; all-India total 52,718 first cited in a Lok Sabha reply of 21 Jul 2026; some state values approximate",ASSUMED release month (not the date printed on the source) - confirm; definitions differ across replies (operational vs installed)
+nsdp_per_capita,FY2022-23 (Actual),2024-04,"per-capita GSDP at current prices, financial year (Apr-Mar)","published actual (24-month lag rule, conservative)"
+nsdp_per_capita,FY2023-24 (Revised),2025-04,"per-capita GSDP at current prices, financial year (Apr-Mar)",official/state ESTIMATE
+nsdp_per_capita,FY2024-25 (Advance),2026-04,"per-capita GSDP at current prices, financial year (Apr-Mar)",official/state ESTIMATE
+nsdp_per_capita,FY2025-26 (Advance),2027-04,"per-capita GSDP at current prices, financial year (Apr-Mar)",official/state ESTIMATE
+nsdp_per_capita,FY2026-27 (Projected),2028-04,"per-capita GSDP at current prices, financial year (Apr-Mar)",official/state ESTIMATE
+aqi_mean,each month,month + 1,monthly aggregate,rule from config
+pm25_mean,each month,month + 1,monthly aggregate,rule from config
+pm10_mean,each month,month + 1,monthly aggregate,rule from config
+no2_mean,each month,month + 1,monthly aggregate,rule from config
+so2_mean,each month,month + 1,monthly aggregate,rule from config
+mean_temp_c,each month,month + 1,monthly aggregate,rule from config
+precipitation_mm,each month,month + 1,monthly aggregate,rule from config
+petrol_price,each month,month + 1,monthly aggregate,rule from config
+diesel_price,each month,month + 1,monthly aggregate,rule from config

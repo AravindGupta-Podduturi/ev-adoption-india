@@ -1,0 +1,7 @@
+feature set,model,cv_MAE (log),holdout_MAE_pp,holdout_R2
+trend + calendar,Ridge,0.139,1.17,0.433
+drivers + calendar,Ridge,0.14,2.018,-0.863
+reference: mean of 2024,constant,,2.603,-1.738
+drivers + calendar,RandomForest,0.196,3.135,-3.0
+calendar only,Ridge,0.254,4.159,-4.749
+calendar only,RandomForest,0.252,4.183,-4.851

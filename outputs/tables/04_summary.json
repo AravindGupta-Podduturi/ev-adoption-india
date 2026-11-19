@@ -1,0 +1,39 @@
+{
+  "headline": "Ensemble-F0 top-3 (validation-selected)",
+  "headline_members": [
+    "SARIMA",
+    "ETS",
+    "XGBoost-F0"
+  ],
+  "best_test_model": "SARIMA-avg4 (all specs averaged)",
+  "benchmark": "Naive (last value)",
+  "sarima_choice": {
+    "Delhi": "(0,1,1)(1,0,0,12)",
+    "Maharashtra": "(0,1,1)(1,0,0,12)",
+    "Tamil Nadu": "(1,1,0)(1,0,0,12)",
+    "West Bengal": "(1,1,1)(0,1,0,12)"
+  },
+  "interval_coverage_80_test": 0.7520833333333333,
+  "wb_baseline_three_wheelers": 3710.0,
+  "feature_sets": {
+    "F0": [],
+    "F1": [
+      "aqi_mean",
+      "no2_mean",
+      "so2_mean",
+      "petrol_price",
+      "mean_temp_c",
+      "precipitation_mm"
+    ],
+    "F2": [
+      "aqi_mean",
+      "no2_mean",
+      "so2_mean",
+      "petrol_price",
+      "mean_temp_c",
+      "precipitation_mm",
+      "charging_stations",
+      "nsdp_per_capita"
+    ]
+  }
+}

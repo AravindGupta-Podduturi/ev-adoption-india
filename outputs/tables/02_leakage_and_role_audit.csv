@@ -1,0 +1,51 @@
+column,role,note
+state,id / calendar,known in advance
+date,id / calendar,known in advance
+year,id / calendar,known in advance
+month,id / calendar,known in advance
+month_name,id / calendar,known in advance
+quarter,id / calendar,known in advance
+season,id / calendar,known in advance
+month_index,id / calendar,known in advance
+vehicle_total,EXCLUDED (leakage),denominator of the target; same-month value is unknown at forecast time
+ev_count,EXCLUDED (leakage),numerator of the target
+ev_adoption_rate,TARGET,EV share of new registrations in the state-month
+two_wheeler,EXCLUDED (leakage),same-month registrations that contain the EVs
+three_wheeler,EXCLUDED (leakage),same-month registrations that contain the EVs
+four_wheeler,EXCLUDED (leakage),same-month registrations that contain the EVs
+light_vehicle,EXCLUDED (leakage),same-month registrations that contain the EVs
+medium_vehicle,EXCLUDED (leakage),same-month registrations that contain the EVs
+heavy_vehicle,EXCLUDED (leakage),same-month registrations that contain the EVs
+other,EXCLUDED (leakage),same-month registrations that contain the EVs
+petrol,EXCLUDED (leakage),fuel split of same-month registrations (shares sum to the target's denominator)
+diesel,EXCLUDED (leakage),fuel split of same-month registrations
+gas,EXCLUDED (leakage),fuel split of same-month registrations
+electric,EXCLUDED (leakage),identical to ev_count (fuel-type split of the same registrations)
+hybrid,EXCLUDED (leakage),fuel split of same-month registrations
+lpg,EXCLUDED (leakage),fuel split of same-month registrations
+alternative,EXCLUDED (leakage),fuel split of same-month registrations
+not_applicable,EXCLUDED (leakage),fuel split of same-month registrations
+aqi_mean,candidate driver,Air quality
+pm25_mean,candidate driver,Air quality
+pm10_mean,candidate driver,Air quality
+no2_mean,candidate driver,Air quality
+so2_mean,candidate driver,Air quality
+aqi_max,candidate driver,Air quality
+dominant_pollutant,EXCLUDED,categorical label derived from the pollutants already used
+mean_temp_c,candidate driver,Weather
+precipitation_mm,candidate driver,Weather
+petrol_price,candidate driver,Fuel prices
+diesel_price,candidate driver,Fuel prices
+charging_stations,candidate driver,Charging infrastructure
+nsdp_fy,unclassified,
+nsdp_per_capita,candidate driver,Income
+nsdp_status,unclassified,
+nsdp_backfilled,unclassified,
+charging_snapshot_label,unclassified,
+charging_approx,unclassified,
+charging_backfilled,unclassified,
+t,id / calendar,known in advance
+month_sin,id / calendar,known in advance
+month_cos,id / calendar,known in advance
+fy_end,id / calendar,known in advance
+anomaly_flag,id / calendar,known in advance

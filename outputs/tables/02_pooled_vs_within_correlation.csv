@@ -1,0 +1,13 @@
+,pooled_spearman,within_state_spearman
+aqi_mean,0.177,-0.188
+pm25_mean,0.162,-0.162
+pm10_mean,0.239,-0.154
+no2_mean,0.246,-0.063
+so2_mean,0.448,0.145
+aqi_max,0.15,-0.199
+petrol_price,-0.472,-0.237
+diesel_price,-0.405,-0.166
+charging_stations,0.791,0.575
+nsdp_per_capita,0.771,0.638
+mean_temp_c,0.042,0.061
+precipitation_mm,-0.1,0.068

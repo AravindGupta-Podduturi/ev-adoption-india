@@ -1,0 +1,14 @@
+{
+  "best_explanatory_model": "RandomForest",
+  "baseline_pct": 8.10310117993355,
+  "verdict": {
+    "aqi_mean": "fragile",
+    "no2_mean": "fragile",
+    "so2_mean": "fragile",
+    "petrol_price": "fragile",
+    "charging_stations": "fragile",
+    "nsdp_per_capita": "fragile",
+    "mean_temp_c": "fragile",
+    "precipitation_mm": "fragile"
+  }
+}

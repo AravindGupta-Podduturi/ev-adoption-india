@@ -1,0 +1,22 @@
+model,Delhi,Maharashtra,Tamil Nadu,West Bengal
+SARIMA-avg4 (all specs averaged),3.1743,1.5957,1.1551,1.3533
+Ensemble-F0 pool (equal weights),3.3507,1.7006,1.0332,1.4446
+SARIMA,3.4694,1.8285,1.2046,1.066
+Ensemble-F0 top-3 (validation-selected),3.5838,1.7278,1.0705,1.2682
+Ensemble-All top-3 (validation-selected),3.5939,1.7093,1.0769,1.2935
+Ensemble-Classical (SARIMA+ETS+PSD),3.7497,1.7471,0.977,1.3573
+Ridge-F0,3.2023,1.8926,1.1563,1.8881
+Ridge-F1,3.3626,1.9788,1.2006,1.927
+XGBoost-F0,3.3414,1.8891,1.213,2.0819
+PSD (pooled seasonal + damped trend),3.6799,1.8521,1.1005,1.8945
+LightGBM-F0,3.413,1.8916,1.2165,2.034
+LightGBM-F1,3.471,1.9147,1.2394,2.0932
+ETS,4.2017,1.7225,1.2422,1.4422
+Ridge-F2,3.4375,1.9923,1.2377,2.0628
+XGBoost-F1,3.4528,1.9093,1.3305,2.08
+XGBoost-F2,3.4346,1.9297,1.3161,2.1505
+LightGBM-F2,3.4971,1.9103,1.2358,2.1969
+Moving average (3m),3.4046,2.0545,1.2959,2.1908
+Naive (last value),3.4133,2.1914,1.4124,2.3654
+Seasonal naive,3.0958,1.6751,1.9561,3.2108
+Seasonal naive + YoY growth,4.1627,1.9149,1.714,2.3568

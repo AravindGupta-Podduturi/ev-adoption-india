@@ -1,0 +1,20 @@
+,% of 24 cells beating naive
+SARIMA,41.7
+Ensemble-F0 top-3 (validation-selected),33.3
+SARIMA-avg4 (all specs averaged),33.3
+Ensemble-F0 pool (equal weights),25.0
+XGBoost-F2,25.0
+Ensemble-Classical (SARIMA+ETS+PSD),20.8
+ETS,20.8
+Ridge-F2,20.8
+Ridge-F1,20.8
+Ridge-F0,20.8
+PSD (pooled seasonal + damped trend),20.8
+Seasonal naive,20.8
+XGBoost-F0,16.7
+XGBoost-F1,16.7
+LightGBM-F1,16.7
+Moving average (3m),12.5
+LightGBM-F2,12.5
+LightGBM-F0,12.5
+Seasonal naive + YoY growth,4.2

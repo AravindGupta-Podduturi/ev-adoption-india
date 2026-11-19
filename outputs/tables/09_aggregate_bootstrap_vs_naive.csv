@@ -1,0 +1,11 @@
+model,MAE diff vs naive (pp),90% CI low,90% CI high,significantly_better
+SARIMA-avg4 (all specs averaged),-0.642,-0.994,-0.335,True
+Ensemble (SARIMA-avg4 + ETS + Ridge-F0),-0.45,-0.785,-0.142,True
+Ridge-F0,-0.341,-0.558,-0.13,True
+Seasonal naive + YoY growth,-0.175,-0.387,0.025,False
+Ridge-F1,-0.166,-0.368,0.024,False
+Ridge-F2,-0.158,-0.339,0.012,False
+Moving average (3m),-0.139,-0.301,0.024,False
+SARIMA,-0.105,-0.33,0.128,False
+ETS,-0.072,-0.498,0.309,False
+Seasonal naive,0.428,-0.182,0.956,False

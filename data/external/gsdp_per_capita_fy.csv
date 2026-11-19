@@ -1,0 +1,21 @@
+state,fy,fy_start,value_inr,status,source_note
+Delhi,2022-23,2022-04-01,473500,Actual,team-supplied table (state/MoSPI-based release); gross state domestic product per capita at current prices; source edition to attest
+Delhi,2023-24,2023-04-01,515500,Revised,team-supplied table; revised estimate
+Delhi,2024-25,2024-04-01,552727,Advance,team-supplied table; advance estimate
+Delhi,2025-26,2025-04-01,593071,Advance,team-supplied table; advance estimate
+Delhi,2026-27,2026-04-01,640000,Projected,team-supplied table; approximate projection (~)
+Tamil Nadu,2022-23,2022-04-01,311500,Actual,team-supplied table (state/MoSPI-based release); gross state domestic product per capita at current prices; source edition to attest
+Tamil Nadu,2023-24,2023-04-01,355200,Revised,team-supplied table; revised estimate
+Tamil Nadu,2024-25,2024-04-01,403847,Advance,team-supplied table; advance estimate
+Tamil Nadu,2025-26,2025-04-01,455650,Advance,team-supplied table; advance estimate
+Tamil Nadu,2026-27,2026-04-01,519000,Projected,team-supplied table; approximate projection (~)
+Maharashtra,2022-23,2022-04-01,290954,Actual,team-supplied table (state/MoSPI-based release); gross state domestic product per capita at current prices; source edition to attest
+Maharashtra,2023-24,2023-04-01,321100,Revised,team-supplied table; revised estimate
+Maharashtra,2024-25,2024-04-01,354225,Advance,team-supplied table; advance estimate
+Maharashtra,2025-26,2025-04-01,394477,Advance,team-supplied table; advance estimate
+Maharashtra,2026-27,2026-04-01,418000,Projected,team-supplied table; approximate projection (~)
+West Bengal,2022-23,2022-04-01,157254,Actual,team-supplied table (state/MoSPI-based release); gross state domestic product per capita at current prices; source edition to attest
+West Bengal,2023-24,2023-04-01,171200,Revised,team-supplied table; revised estimate
+West Bengal,2024-25,2024-04-01,181786,Advance,team-supplied table; advance estimate
+West Bengal,2025-26,2025-04-01,198451,Advance,team-supplied table; advance estimate
+West Bengal,2026-27,2026-04-01,214000,Projected,team-supplied table; approximate projection (~)

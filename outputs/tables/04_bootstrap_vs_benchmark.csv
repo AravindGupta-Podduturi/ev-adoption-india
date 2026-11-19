@@ -1,0 +1,21 @@
+model,MAE diff vs naive (pp),90% CI low,90% CI high,significantly_better
+SARIMA-avg4 (all specs averaged),-0.502,-0.739,-0.276,True
+Ensemble-F0 pool (equal weights),-0.44,-0.661,-0.242,True
+SARIMA,-0.411,-0.662,-0.159,True
+Ensemble-F0 top-3 (validation-selected),-0.4,-0.636,-0.177,True
+Ensemble-All top-3 (validation-selected),-0.395,-0.636,-0.171,True
+Ensemble-Classical (SARIMA+ETS+PSD),-0.357,-0.638,-0.093,True
+Ridge-F0,-0.302,-0.458,-0.159,True
+Ridge-F1,-0.218,-0.374,-0.076,True
+XGBoost-F0,-0.211,-0.393,-0.044,True
+PSD (pooled seasonal + damped trend),-0.201,-0.493,0.072,False
+LightGBM-F0,-0.201,-0.389,-0.032,True
+LightGBM-F1,-0.161,-0.299,-0.033,True
+ETS,-0.157,-0.472,0.141,False
+Ridge-F2,-0.156,-0.328,-0.0,True
+XGBoost-F1,-0.146,-0.283,-0.017,True
+XGBoost-F2,-0.134,-0.274,-0.003,True
+LightGBM-F2,-0.134,-0.28,0.001,False
+Moving average (3m),-0.106,-0.232,0.026,False
+Seasonal naive,0.104,-0.331,0.497,False
+Seasonal naive + YoY growth,0.201,0.004,0.405,False

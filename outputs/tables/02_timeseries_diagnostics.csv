@@ -1,0 +1,5 @@
+state,"ADF_p (log rate, trend)","KPSS_p (log rate, trend)",ADF_p (diff log rate),seasonal_strength,trend_strength
+Delhi,0.003,0.1,0.0,0.635,0.482
+Maharashtra,0.0,0.071,0.139,0.536,0.631
+Tamil Nadu,0.0,0.1,0.0,0.474,0.883
+West Bengal,0.0,0.1,0.085,0.418,0.948

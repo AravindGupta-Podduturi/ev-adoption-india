@@ -1,0 +1,17 @@
+state,label_month,value,approximate,source,assumed_release_month,note
+Maharashtra,2022-12-01,600,1,End of 2022 (approximate),2023-03-01,approximate figure; assumed published 3 months after label
+Delhi,2022-12-01,500,1,End of 2022 (approximate),2023-03-01,approximate figure; assumed published 3 months after label
+Tamil Nadu,2022-12-01,400,1,End of 2022 (approximate),2023-03-01,approximate figure; assumed published 3 months after label
+West Bengal,2022-12-01,100,1,End of 2022 (approximate),2023-03-01,approximate figure; assumed published 3 months after label
+Maharashtra,2024-02-01,3728,0,Ministry of Power (Feb 2024),2024-03-01,assumed published 1 month after label
+Delhi,2024-02-01,1886,0,Ministry of Power (Feb 2024),2024-03-01,assumed published 1 month after label
+Tamil Nadu,2024-02-01,643,0,Ministry of Power (Feb 2024),2024-03-01,assumed published 1 month after label
+West Bengal,2024-02-01,318,0,Ministry of Power (Feb 2024),2024-03-01,assumed published 1 month after label
+Maharashtra,2025-12-01,4166,0,Lok Sabha reply (Dec 2025),2026-01-01,assumed published 1 month after label
+Delhi,2025-12-01,1957,0,Lok Sabha reply (Dec 2025),2026-01-01,assumed published 1 month after label
+Tamil Nadu,2025-12-01,1780,0,Lok Sabha reply (Dec 2025),2026-01-01,assumed published 1 month after label
+West Bengal,2025-12-01,891,0,Lok Sabha reply (Dec 2025),2026-01-01,assumed published 1 month after label
+Maharashtra,2026-08-01,6985,0,Rajya Sabha reply (Aug 2026),2026-09-01,assumed published 1 month after label
+Delhi,2026-08-01,3800,1,Rajya Sabha reply (Aug 2026),2026-09-01,approximate (~3800) as supplied
+Tamil Nadu,2026-08-01,3839,0,Rajya Sabha reply (Aug 2026),2026-09-01,assumed published 1 month after label
+West Bengal,2026-08-01,1200,1,Rajya Sabha reply (Aug 2026),2026-09-01,approximate (~1200*) - asterisk in the supplied table; meaning of asterisk TO CONFIRM

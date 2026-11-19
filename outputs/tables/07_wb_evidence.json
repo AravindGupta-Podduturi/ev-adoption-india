@@ -1,0 +1,19 @@
+{
+  "baseline_three_wheelers_per_month": 3710.0,
+  "baseline_EV_per_month": 5517.0,
+  "excess_EV_over_excess_3W_in_flagged_months": 1.0119563218006389,
+  "corr_EV_vs_3W_2025_26": 0.9828416892127142,
+  "wb_peak_3W_multiple": 7.874932614555256,
+  "other_states_peak_3W_multiple": {
+    "Delhi": 0.8511291009799744,
+    "Maharashtra": 1.305353139013453,
+    "Tamil Nadu": 1.2807383803977586
+  },
+  "adjusted_rates_flagged_months_%": {
+    "2025-11-01": 4.17,
+    "2025-12-01": 5.28,
+    "2026-01-01": 5.48,
+    "2026-02-01": 5.49
+  },
+  "evidence_status": "evidence CONSISTENT WITH an e-rickshaw registration backlog (numerical correspondence only; NOT officially verified); official notification and Vahan class split still to be cited"
+}
