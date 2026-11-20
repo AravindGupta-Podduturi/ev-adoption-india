@@ -15,7 +15,7 @@ registrations) in Delhi, Maharashtra, Tamil Nadu and West Bengal - and can we fo
 
 ## Headline results (every number comes from `docs/MASTER_RESULTS_TABLE.md`)
 
-**Model-selection history (not rewritten).** The **primary, pre-declared model** is the *top-3 F0 ensemble* (SARIMA + ETS + XGBoost-F0), chosen on the 2024 validation window before any test result was read. The *equal-weight pool of 7 F0 models* and the *SARIMA specification average (avg4)* were added **after** test results were seen; they are **exploratory** and are labelled so in every table. Nothing was retuned after seeing test results.
+**Model-selection history (not rewritten).** The **primary, pre-declared model** is the *top-3 F0 ensemble* (SARIMA + ETS + XGBoost-F0), chosen on the 2024 validation window before any test result was read. The *equal-weight pool of 7 F0 models* and the *SARIMA specification average (avg4)* were added **after** test results were seen; they are **exploratory** and are labelled so in every table. An interim run (frozen file `data/frozen_forecasts_made_2026-11-16.csv`, column `Headline`) labelled the pool the headline after rolling results had been seen; the pre-declared rule was then reinstated as primary and that file is kept unchanged. Nothing was retuned after seeing test results.
 
 **Different evaluations use different samples and are never put in one comparison.** Each has an ID, with exact windows, n of forecasts, horizons, series level, WB treatment, feature set and model status in the master table.
 
